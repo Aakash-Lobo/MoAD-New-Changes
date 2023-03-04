@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/pastpapers/faq.dart';
-
-import 'screens/mv_list.dart';
+import 'package:flutter_application_1/student/results/result_list.dart';
+import 'task_main.dart';
 
 void main() async {
   runApp(MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MovieListScreen(),
+      home: TaskMain(),
     );
   }
 }

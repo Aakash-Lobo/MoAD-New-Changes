@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/results/result_list.dart';
+import 'package:flutter_application_1/student/results/result_list.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Fee extends StatefulWidget {
+class SemThreeResult extends StatefulWidget {
   @override
-  _Fee createState() => _Fee();
+  _SemThreeResult createState() => _SemThreeResult();
 }
 
-class _Fee extends State {
+class _SemThreeResult extends State {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,11 +15,11 @@ class _Fee extends State {
           appBar: AppBar(
             leading: IconButton(
                 icon: Icon(Icons.arrow_back, color: Colors.black),
-                onPressed: () => Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Fee()))),
+                onPressed: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ResultList()))),
             backgroundColor: Colors.white,
             title: Text(
-              'Fee Slip',
+              'Semester Three',
               style: GoogleFonts.josefinSans(
                 textStyle: const TextStyle(
                   color: Color(0xff164276),
@@ -82,66 +82,66 @@ class _Fee extends State {
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold))),
                   DataColumn(
-                      label: Text('UID',
+                      label: Text('Subject',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold))),
                   DataColumn(
-                      label: Text('Student Name',
+                      label: Text('Course Code',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold))),
                   DataColumn(
-                      label: Text('Program',
+                      label: Text('CIA Marks',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold))),
                   DataColumn(
-                      label: Text('Amount',
+                      label: Text('End Sem Marks',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold))),
                   DataColumn(
-                      label: Text('Posting Date',
+                      label: Text('Total Marks',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold))),
                   DataColumn(
-                      label: Text('Status',
+                      label: Text('Grade',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold))),
                 ],
                 rows: [
                   DataRow(cells: [
                     DataCell(Text('1')),
-                    DataCell(Text('215000')),
-                    DataCell(Text('Test')),
-                    DataCell(Text('BSCIT')),
-                    DataCell(Text('0000')),
-                    DataCell(Text('00-00-0000')),
-                    DataCell(Text('Paid')),
+                    DataCell(Text('MOAD')),
+                    DataCell(Text('SITS0402')),
+                    DataCell(Text('5')),
+                    DataCell(Text('5')),
+                    DataCell(Text('10')),
+                    DataCell(Text('A')),
                   ]),
                   DataRow(cells: [
                     DataCell(Text('2')),
-                    DataCell(Text('215000')),
-                    DataCell(Text('Test')),
-                    DataCell(Text('BSCIT')),
-                    DataCell(Text('0000')),
-                    DataCell(Text('00-00-0000')),
-                    DataCell(Text('Paid')),
+                    DataCell(Text('MOAD')),
+                    DataCell(Text('SITS0402')),
+                    DataCell(Text('5')),
+                    DataCell(Text('5')),
+                    DataCell(Text('10')),
+                    DataCell(Text('A')),
                   ]),
                   DataRow(cells: [
                     DataCell(Text('3')),
-                    DataCell(Text('215000')),
-                    DataCell(Text('Test')),
-                    DataCell(Text('BSCIT')),
-                    DataCell(Text('0000')),
-                    DataCell(Text('00-00-0000')),
-                    DataCell(Text('Paid')),
+                    DataCell(Text('MOAD')),
+                    DataCell(Text('SITS0402')),
+                    DataCell(Text('5')),
+                    DataCell(Text('5')),
+                    DataCell(Text('10')),
+                    DataCell(Text('A')),
                   ]),
                   DataRow(cells: [
                     DataCell(Text('4')),
-                    DataCell(Text('215000')),
-                    DataCell(Text('Test')),
-                    DataCell(Text('BSCIT')),
-                    DataCell(Text('0000')),
-                    DataCell(Text('00-00-0000')),
-                    DataCell(Text('Paid')),
+                    DataCell(Text('MOAD')),
+                    DataCell(Text('SITS0402')),
+                    DataCell(Text('5')),
+                    DataCell(Text('5')),
+                    DataCell(Text('10')),
+                    DataCell(Text('A')),
                   ]),
                 ],
               ),

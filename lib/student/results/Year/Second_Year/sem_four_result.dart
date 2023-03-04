@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/results/result_list.dart';
+import 'package:flutter_application_1/student/results/result_list.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class SemOneResult extends StatefulWidget {
+class SemFourResult extends StatefulWidget {
   @override
-  _SemOneResult createState() => _SemOneResult();
+  _SemFourResult createState() => _SemFourResult();
 }
 
-class _SemOneResult extends State {
+class _SemFourResult extends State {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,7 +19,7 @@ class _SemOneResult extends State {
                     MaterialPageRoute(builder: (context) => ResultList()))),
             backgroundColor: Colors.white,
             title: Text(
-              'Semester One',
+              'Semester Four',
               style: GoogleFonts.josefinSans(
                 textStyle: const TextStyle(
                   color: Color(0xff164276),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/results/Year/First_Year/sem_one_result.dart';
-import 'package:flutter_application_1/results/Year/Third_Year/sem_six_result.dart';
+import 'package:flutter_application_1/student/results/Year/First_Year/sem_one_result.dart';
+import 'package:flutter_application_1/student/results/Year/Third_Year/sem_six_result.dart';
 
 import 'Year/First_Year/sem_two_result.dart';
 import 'Year/Second_Year/sem_four_result.dart';
